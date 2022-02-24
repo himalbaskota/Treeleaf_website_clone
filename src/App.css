@@ -28,11 +28,113 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.mask-custom {
+  backdrop-filter: contrast(70%) brightness(40%) saturate(50%) sepia(50%)
+    hue-rotate(0deg) grayscale(50%) invert(0%) blur(0px);
+  mix-blend-mode: lighten;
+  background: rgba(133, 132, 134, 0.31);
+  opacity: 1;
+}
+
+.bg-cover {
+  background: linear-gradient(
+    180deg,
+    rgba(61, 147, 97, 1) 0%,
+    rgba(31, 78, 51, 1) 55%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+.different {
+  background: #48a6ff33;
+}
+.light-gray {
+  background-color: #f5f7fa;
+}
+.list-foot {
+  list-style: none;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.intro p {
+  margin-bottom: 0;
+}
+
+.people {
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.item {
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 3px 0px rgba(65, 62, 62, 0.2);
+}
+
+.item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(164, 236, 230, 0.75);
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 80px;
+  color: rgb(143, 35, 35);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .cover {
+  opacity: 1;
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4c81c2;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.social {
+  font-size: 18px;
+}
+
+.social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.social a:hover {
+  opacity: 1;
 }
