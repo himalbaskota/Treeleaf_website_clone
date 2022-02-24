@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div className="row h-100 position-relative">
-        <img src={bg} alt="bg" height="500px" />
+        <img src={bg} alt="bg" alt="Logo" height="500px" />
         <div className=" position-absolute d-flex justify-content-around">
           <div className="col-lg-4">
             <div className="mt-3">

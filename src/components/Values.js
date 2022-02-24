@@ -17,7 +17,7 @@ export default function Values() {
         <div className="ms-5 ps-5 me-5 pe-5">
           <div className="row  justify-content-around text-center">
             <div className="col-lg-3">
-              <img src={Sincerity} height="42px" />
+              <img src={Sincerity} alt="Logo" height="42px" />
               <h4>Have Sincerity</h4>
               <p className="fs-6">
                 You're pleasant - but on the other hand, you're immediate,
@@ -27,7 +27,7 @@ export default function Values() {
             </div>
 
             <div className="col-lg-3">
-              <img src={responsibility} height="42px" />
+              <img src={responsibility} alt="Logo" height="42px" />
               <h4>Continuous learning</h4>
               <p>
                 You aspire for continuous learning because you are passionate
@@ -36,7 +36,7 @@ export default function Values() {
             </div>
 
             <div className="col-lg-3">
-              <img src={determined} height="42px" />
+              <img src={determined} alt="Logo" height="42px" />
               <h4>Be determined</h4>
               <p>
                 {" "}
@@ -46,7 +46,7 @@ export default function Values() {
             </div>
 
             <div className="col-lg-3">
-              <img src={responsibility} height="42px" />
+              <img src={responsibility} alt="Logo" height="42px" />
               <h4>Be responsible</h4>
               <p>
                 You are enthusiastic and more responsible for decision making
@@ -54,7 +54,7 @@ export default function Values() {
               </p>
             </div>
             <div className="col-lg-4">
-              <img src={party} height="42px" />
+              <img src={party} alt="Logo" height="42px" />
               <h4>Code hard Party harder</h4>
               <p>
                 Working hard is our passion but we don’t forget about fun.
@@ -64,7 +64,7 @@ export default function Values() {
             </div>
 
             <div className="col-lg-4">
-              <img src={thirty} height="42px" />
+              <img src={thirty} alt="Logo" height="42px" />
               <h4>30 minutes challenges</h4>
               <p>
                 Growth is important aspect for employees. It is necessary to
@@ -74,7 +74,7 @@ export default function Values() {
               </p>
             </div>
             <div className="col-lg-4">
-              <img src={learn} height="42px" />
+              <img src={learn} alt="Logo" height="42px" />
               <h4>Knowledge Sharing</h4>
               <p>
                 The more you share your knowledge, the more you learn. We
